@@ -1,6 +1,7 @@
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from backend.tennis.afterwork.random_choice import RandomMatchs
+from typing import List
 
 app = FastAPI()
 
@@ -13,5 +14,8 @@ app.add_middleware(
 )
 
 @app.post("/tennis/afterwork/new_matchs")
-def random(nb_joueurs: str = Form(...)):
-    return RandomMatchs.get_random_matchs(int(nb_joueurs))
+async def random(request: Request):
+    data = await request.json()
+    nb_joueurs = data.get("nb_joueurs")
+    terrain = data.get("terrain")  
+    return RandomMatchs.get_random_matchs(int(nb_joueurs), terrain)
