@@ -4,7 +4,7 @@ import { CheckboxGroup, Stack, Checkbox, Button, Flex, Input, Table, Thead, Tr, 
 import { get_raquettes } from '../api/config';
 
 export default function TennisAfterwork() {
-    const [players, setPlayers] = useState([]);
+    const [players, setPlayers] = useState(["", "", "", ""]);
     const [terrainDispo, setTerrainDispo] = useState(['simple', 'mini-tennis']);
     const [raquettesData, setRaquettesData] = useState([]);
     const [typeDeBalle, setTypeDeBalle] = useState('');
@@ -15,17 +15,22 @@ export default function TennisAfterwork() {
     };
 
     const handleButtonClick = async () => {
+        console.log(players);
         if (terrainDispo.length == 0) {
             alert('Aucun terrain de dispo.');
-        } else if (players.length === 0 || players.length === 3 || players.length > 4) {
-            alert('Nombre de joueurs incorrect. Veuillez saisir 2 ou 4 joueurs.');
-        } else if (players.length === 2 || players.length === 4) {
-            const data = (await get_raquettes(players.length, terrainDispo)).data;
+        } else if (players[0] != "" && players[1] != "" && players[2] == "" && players[3] == ""){
+            const data = (await get_raquettes(2, terrainDispo)).data;
             setRaquettesData(data.raquettes);
             setTypeDeBalle(data.balle);
             setTerrain(data.terrain + "/" + data.simple_double);
-        }else {
-            alert('Erreur inconnue.');
+        } else if (players[0] != "" && players[1] != "" && players[2] != "" && players[3] != "") {
+            const data = (await get_raquettes(4, terrainDispo)).data;
+            setRaquettesData(data.raquettes);
+            setTypeDeBalle(data.balle);
+            setTerrain(data.terrain + "/" + data.simple_double);
+        }
+        else {
+                alert('Nombre de joueurs incorrect. Veuillez saisir 2 ou 4 joueurs.');
         }
     };
 
