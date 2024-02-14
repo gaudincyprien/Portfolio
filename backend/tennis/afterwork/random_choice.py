@@ -7,9 +7,9 @@ class RandomMatchs():
         payload["raquettes"] = [random.choice(RandomMatchs.LISTE_RAQUETTE) for i in range(nb_joueurs)]
         payload['balle'] = random.choice(["Dur", "Verte", "Orange", "Rouge", "Mousse"])
         if "simple" in terrain and "mini-tennis" in terrain:
-            payload['terrain'] = random.choice(["Entier", "Intermédiaire", "Carré de service", "mini-tennis"])
+            payload['terrain'] = random.choice(["Entier", "Intermédiaire", "Carré de service", "Mini-tennis"])
         elif "simple" in terrain:
-            payload['terrain'] = random.choice(["Simple", "Double", "Mini-tennis"])
+            payload['terrain'] = random.choice(["Entier", "Intermédiaire", "Carré de service"])
         else:
             payload['terrain'] = "Mini-tennis"
         if nb_joueurs == 4:
