@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../components/partial/NavBar';
+import Footbar from '../components/partial/FootPage';
 import { CheckboxGroup, Stack, Checkbox, Button, Flex, Input, Table, Thead, Tr, Th, Tbody, Td, TableContainer, Box, Text } from '@chakra-ui/react';
 import { get_raquettes } from '../api/config';
 
@@ -79,6 +80,7 @@ export default function TennisAfterwork() {
                     <Button colorScheme='blue' onClick={handleButtonClick}>Nouveau Match</Button>
                 </Box>
             </Flex>
+            <Footbar />
         </Box>
     );
 }

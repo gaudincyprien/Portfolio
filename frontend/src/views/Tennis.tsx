@@ -1,12 +1,13 @@
 import Navbar from '../components/partial/NavBar';
-import { Flex } from '@chakra-ui/react';
+import Footbar from '../components/partial/FootPage';
+import { Flex, Box } from '@chakra-ui/react';
 import { Button } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 
 export default function Tennis() {
     const navigate = useNavigate();
     return (
-        <div style={{ backgroundColor: '#00ff00', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Box style={{ backgroundColor: '#00ff00', height: '100vh', display: 'flex', flexDirection: 'column' }}>
             <Navbar />
             <Flex flex={1} justifyContent='center' alignItems='center'>
                 <div style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', textAlign: 'center'}}>
@@ -15,6 +16,7 @@ export default function Tennis() {
                     <Button colorScheme='green' onClick={() => navigate('/tennis/afterwork')}>Afterwok</Button>
                 </div>
             </Flex>
-        </div>
+            <Footbar />
+        </Box>
     );
 }
