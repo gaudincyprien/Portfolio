@@ -15,6 +15,7 @@ app.add_middleware(
 
 @app.post("/tennis/afterwork/new_matchs")
 async def random(request: Request):
+    print (request)
     data = await request.json()
     nb_joueurs = data.get("nb_joueurs")
     terrain = data.get("terrain")  
