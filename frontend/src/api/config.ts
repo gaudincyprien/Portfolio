@@ -8,7 +8,7 @@ export async function get_raquettes(nb_joueurs: number, terrain: string[]) {
         };
     
         return await axios.post(
-            "https://cypriengaudin.fr/tennis/afterwork/new_matchs",
+            "http://cypriengaudin.fr/tennis/afterwork/new_matchs",
             data,
             { headers: { 'Content-Type': 'application/json' } }
         ) as AxiosResponse<ConfigAPIRaquettes>;
