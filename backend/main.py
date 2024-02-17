@@ -13,6 +13,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/home")
+async def home():
+    return {"message": "Hello World"}
+
 @app.post("/tennis/afterwork/new_matchs")
 async def random(request: Request):
     print (request)
