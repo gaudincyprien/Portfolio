@@ -5,7 +5,7 @@ import Footbar from '../components/partial/FootPage';
 export default function HomePage() {
 
     return (
-        <div style={{ backgroundColor: '#d3d3d3', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Box style={{ backgroundColor: '#d3d3d3', height: '100vh', display: 'flex', flexDirection: 'column' }}>
             <Navbar />
             <Flex flex={1} justifyContent='center' alignItems='center'>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px' }}>
@@ -13,6 +13,6 @@ export default function HomePage() {
                 </Box>
             </Flex>
             <Footbar />
-        </div>
+        </Box>
     );
 }
