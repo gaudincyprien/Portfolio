@@ -17,7 +17,7 @@ export default function About() {
                     <Text>L'année prochaine je rejoins un master en developement full-stack en alternance</Text>                    
                 </Box>
             </Flex>
-            <Flex>
+            <Flex flex={1} justifyContent='center' >
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Langages</Text>
                     <List spacing={1}>
@@ -36,7 +36,9 @@ export default function About() {
                     <Text as="h2" fontSize="lg" fontWeight="bold">Formation</Text>
                     <List spacing={3}>
                         <ListItem>
-                            <Text as="h3" fontSize="md" fontWeight="bold">BUT Informatique</Text>
+                            <Link to="/me/IUT">
+                                <Text as="h3" fontSize="md" fontWeight="bold" color="blue.500">BUT Informatique</Text>
+                            </Link>
                             <List spacing={1}>
                                 <ListItem>- Rélaiser d'application</ListItem>
                                 <ListItem>- Gestion de projet</ListItem>
