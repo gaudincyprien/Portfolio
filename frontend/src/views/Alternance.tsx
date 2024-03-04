@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Alternance() {
 
     return (
-        <Box style={{ backgroundColor: '#d3d3d3', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Box style={{ backgroundColor: '#d3d3d3', display: 'flex', flexDirection: 'column' }}>
             <Navbar />
             <Link to="/me">
                 <Button style={{ position: 'absolute', top: 10, left: 10 }}>Back</Button>
@@ -32,27 +32,17 @@ export default function Alternance() {
                 <Flex justifyContent="space-between" width="100%">
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Création des tableaux de bord automatique</Text>
-                        <Text>Ma première mission au sein de l'entreprise a été de créer une application permettant la génréation</Text>
-                        <Text>de tableau de bord automatique depuis un programme python</Text>
-                        <Text>Ce processus s'intègre lors de la mise en place d'une étude et permet de gagner du temps lors de la</Text>
-                        <Text>mise en place d'une étude</Text>
-                        <Text>J'ai réaliser ce projet en partant de zéro, ce projet créer des tableaux en fonction des besoins de l'étude</Text>
-                        <Text>et des besoins nécéssaires de ces études. Certains graphes ne sont pas créer pour certaines études</Text>
+                        <Text>Ma première mission au sein de l'entreprise a été de créer une application permettant la génréation de tableau de bord automatique depuis un programme python. Ce processus s'intègre lors de la mise en place d'une étude et permet de gagner du temps lors de la mise en place d'une étude.</Text>
+                        <Text>J'ai réaliser ce projet en partant de zéro, ce projet créer des tableaux en fonction des besoins de l'étude et des besoins nécéssaires de ces études. Certains graphes ne sont pas créer pour certaines études.</Text>
                     </Box>    
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Mise en place de la V2</Text>
-                        <Text>Lors de mon alternance chez Telemedicine Technologies, j'ai participé à la mise en place de la nouvelle version permettant</Text>
-                        <Text>de récupérer, transformer et insérer les données dans la base de données de l'étude afin de pouvoir traiter les données</Text>
-                        <Text>et les afficher sur le tableau de bord avec des graphiques</Text>
-                        <Text>Ce nouveau processus permet d'avoir des études plus complexes et avec des informations qui n'étais pas présentes sur le V1</Text>
+                        <Text>Lors de mon alternance chez Telemedicine Technologies, j'ai participé à la mise en place de la nouvelle version permettant de récupérer, transformer et insérer les données dans la base de données de l'étude afin de pouvoir traiter les données et les afficher sur le tableau de bord avec des graphiques Ce nouveau processus permet d'avoir des études plus complexes et avec des informations qui n'étais pas présentes sur la V1.</Text>
                     </Box>  
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Mise en place d'un back-end</Text>
-                        <Text>J'ai commencé un projet à réro qui concenrne le back-end de Data-Service</Text>
-                        <Text>Ce projet à pour but de simplifier les démarches faite par l'équipe de Data&Service</Text>
-                        <Text>Ma première mission sur ce projet à été de faire la vérification du fichier de oncfiguration d'une étude</Text>
-                        <Text>et de vérifier qu'il y ait pas de problème dans ce fichier comme des informations qui doivent être présente</Text>
-                        <Text>obligatoirement ou alors des informations qui existe dans une feuille doivent exister dans tels autre feuilles</Text>
+                        <Text>J'ai commencé un projet à zéro qui concenrne le back-end de Data-Service. Ce projet à pour but de simplifier les démarches faite par l'équipe de Data&Service</Text>
+                        <Text>Ma première mission sur ce projet à été de faire la vérification du fichier de oncfiguration d'une étude et de vérifier qu'il y ait pas de problème dans ce fichier comme des informations qui doivent être présente obligatoirement ou alors des informations qui existe dans une feuille doivent exister dans tels autre feuilles</Text>
                     </Box>          
                 </Flex>
                 </Flex>
