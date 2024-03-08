@@ -19,9 +19,9 @@ export default function IUT() {
             <Flex padding={5}>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Présentation de la Formation</Text>
-                    <Text>Durant cette formation de 3 ans (2 ans en initial et 1 an en alternance), j'ai pu acquérir des notions dans le dévellopement mais aussi dans la gestion de projet ou encore des notions communication et de droit.</Text>
+                    <Text>Durant cette formation de 3 ans (2 ans en initial et 1 an en alternance), j'ai pu acquérir des notions dans le développement, mais aussi dans la gestion de projet, ainsi que des notions en communication et en droit.</Text>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Langages vus durant les cours </Text>
-                    <Text>Durant les différents cours et projets, voici les différents langages sur lesquels j'ai travaillé : Java, HTML/CSS/JS, Python, React, SQL, GIT, Linux, PHP, C</Text>
+                    <Text>Au cours des différents cours et projets, voici les différents langages sur lesquels j'ai travaillé : Java, HTML/CSS/JS, Python, React, SQL, GIT, Linux, PHP, C.</Text>
                 </Box>
             </Flex>
             <Flex padding={5} justifyContent="center" alignItems="center">

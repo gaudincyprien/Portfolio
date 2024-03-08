@@ -10,11 +10,10 @@ export default function About() {
             <Flex flex={1} justifyContent='center' alignItems='center'>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Présentation</Text>
-                    <Text>Je m'appelle Cyprien Gaudin et je suis actuellement étudient en 3 ème année de BUT informatique</Text>
-                    <Text>J'effectue ma troisième année de BUT en alternance chez Telemedicine technologies en tant que developpeur Python</Text>
-                    <Text>Je suis passionné par l'informatique depuis que je suis en 3 eme, j'ai effectué différent projets</Text>
-                    <Text>pendant mon lycée en python et différent projets pendant mon BUT Informatique en JAVA</Text>
-                    <Text>L'année prochaine je rejoins un master en developement full-stack en alternance</Text>                    
+                    <Text>Je m'appelle Cyprien Gaudin et je suis actuellement étudiant en 3ème année de BUT informatique.</Text>
+                    <Text>J'effectue ma troisième année de BUT en alternance chez Telemedicine Technologies en tant que développeur Python.</Text>
+                    <Text>Je suis passionné par l'informatique depuis que je suis en 3ème. J'ai réalisé différents projets en Python pendant mon lycée, ainsi que différents projets en JAVA pendant mon BUT informatique.</Text>
+                    <Text>L'année prochaine, je rejoindrai un master en développement full-stack en alternance.</Text>               
                 </Box>
             </Flex>
             <Flex flex={1} justifyContent='center' >
@@ -50,7 +49,7 @@ export default function About() {
                             <List spacing={1}>
                                 <ListItem>- Mathématiques</ListItem>
                                 <ListItem>- Physique</ListItem>
-                                <ListItem>- NSI</ListItem>
+                                <ListItem>- NSI (Numérique et Sciences Informatiques)</ListItem>
                             </List>
                         </ListItem>
                     </List>
@@ -78,7 +77,7 @@ export default function About() {
                         </Link>
                             <List spacing={1}>
                                 <ListItem>- Création de tableaux de bord</ListItem>
-                                <ListItem>- Base de données</ListItem>
+                                <ListItem>- Gestion des bases de données</ListItem>
                                 <ListItem>- Correction de bugs</ListItem>
                             </List>
                         </ListItem>

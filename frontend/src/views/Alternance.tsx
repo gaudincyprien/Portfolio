@@ -19,12 +19,9 @@ export default function Alternance() {
             <Flex padding={5}>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Présentation Entreprise</Text>
-                    <Text>Telemedicine technologies est une entreprise éditeuse de solution de e-santé grâce à leur logiciel</Text>
-                    <Text>CleanWeb qui est un outils qui permet la gestion électronique des essais cliniques</Text>
-                    <Text>Telemedinice Technologies est implisqué dans plus de 64 pays, plus de 20 000 centres de recherches</Text>
-                    <Text>3 millions de patients et 50 000 utilisateurs à travers le monde</Text>
-                    <Text>Pour la part je suis ratché à la branche Data qui se trouve en belgique</Text>  
-                    <Text>Mon objectif est de simplifier les démarches des Data Managers, corriger les bugs et mettre en place les études</Text>               
+                    <Text>Telemedicine Technologies est une entreprise éditrice de solutions de e-santé grâce à son logiciel CleanWeb, qui est un outil permettant la gestion électronique des essais cliniques.</Text>
+                    <Text>Telemedicine Technologies est impliqué dans plus de 64 pays, avec plus de 20 000 centres de recherche, 3 millions de patients et 50 000 utilisateurs à travers le monde.</Text>
+                    <Text>Pour ma part, je suis rattaché à la branche Data, qui se trouve en Belgique. Mon objectif est de simplifier les démarches des Data Managers, de corriger les bugs et de mettre en place les études.</Text>          
                 </Box>
             </Flex>
             <Flex flexDirection="column" alignItems="center" padding={5}>
@@ -32,17 +29,18 @@ export default function Alternance() {
                 <Flex justifyContent="space-between" width="100%">
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Création des tableaux de bord automatique</Text>
-                        <Text>Ma première mission au sein de l'entreprise a été de créer une application permettant la génréation de tableau de bord automatique depuis un programme python. Ce processus s'intègre lors de la mise en place d'une étude et permet de gagner du temps lors de la mise en place d'une étude.</Text>
-                        <Text>J'ai réaliser ce projet en partant de zéro, ce projet créer des tableaux en fonction des besoins de l'étude et des besoins nécéssaires de ces études. Certains graphes ne sont pas créer pour certaines études.</Text>
+                        <Text>Ma première mission au sein de l'entreprise a été de créer une application permettant la génération automatique de tableaux de bord à partir d'un programme Python. Ce processus s'intègre lors de la mise en place d'une étude et permet de gagner du temps lors de cette phase.</Text>
+                        <Text>J'ai réalisé ce projet en partant de zéro. L'application crée des tableaux en fonction des besoins spécifiques de chaque étude. Certains graphiques ne sont pas générés pour certaines études, en fonction de leurs exigences particulières.</Text>
                     </Box>    
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Mise en place de la V2</Text>
-                        <Text>Lors de mon alternance chez Telemedicine Technologies, j'ai participé à la mise en place de la nouvelle version permettant de récupérer, transformer et insérer les données dans la base de données de l'étude afin de pouvoir traiter les données et les afficher sur le tableau de bord avec des graphiques Ce nouveau processus permet d'avoir des études plus complexes et avec des informations qui n'étais pas présentes sur la V1.</Text>
+                        <Text>Lors de mon alternance chez Telemedicine Technologies, j'ai participé à la mise en place de la nouvelle version du logiciel. Cette nouvelle version permet de récupérer, transformer et insérer les données dans la base de données de l'étude, afin de pouvoir les traiter et les afficher sur le tableau de bord avec des graphiques.</Text>
+                        <Text>Ce nouveau processus a permis d'introduire des études plus complexes et d'inclure des informations qui n'étaient pas disponibles sur la version précédente (V1).</Text>
                     </Box>  
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Mise en place d'un back-end</Text>
-                        <Text>J'ai commencé un projet à zéro qui concenrne le back-end de Data-Service. Ce projet à pour but de simplifier les démarches faite par l'équipe de Data&Service</Text>
-                        <Text>Ma première mission sur ce projet à été de faire la vérification du fichier de oncfiguration d'une étude et de vérifier qu'il y ait pas de problème dans ce fichier comme des informations qui doivent être présente obligatoirement ou alors des informations qui existe dans une feuille doivent exister dans tels autre feuilles</Text>
+                        <Text>J'ai entamé un projet à partir de zéro concernant le back-end du Data-Service. Ce projet vise à simplifier les démarches effectuées par l'équipe de Data&Service.</Text>
+                        <Text>Ma première mission sur ce projet a été de réaliser la vérification du fichier de configuration d'une étude, afin de m'assurer qu'il n'y avait aucun problème dans ce fichier. Cela incluait la vérification de la présence obligatoire d'informations, ainsi que l'existence de certaines informations dans une feuille de calcul qui devaient également être présentes dans d'autres feuilles.</Text>
                     </Box>          
                 </Flex>
                 </Flex>
@@ -51,19 +49,19 @@ export default function Alternance() {
                 <Flex justifyContent="space-between" width="100%">
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">Python</Text>
-                        <Text>Lors de tout mes dévellopement au sein de l'équipe Data Service s'effectue en Python</Text>
-                        <Text>Les projets sont en python car c'est un langage qui permet un traitement de données facile</Text>
-                        <Text>Avec les différents projets réalisés avec l'entreprise j'ai pu enrichir mes compténces en python notament avec le traitementf de données à effectuer que je ne connaissait pas avant mon alternance</Text>
+                        <Text>Tous mes développements au sein de l'équipe Data Service s'effectuent en Python.</Text>
+                        <Text>Les projets sont réalisés en Python car c'est un langage qui permet un traitement de données facile et efficace.</Text>
+                        <Text>Grâce aux différents projets réalisés avec l'entreprise, j'ai pu enrichir mes compétences en Python, notamment dans le traitement de données, domaine que je ne connaissais pas avant mon alternance.</Text>
                     </Box>    
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">SQL</Text>
-                        <Text>La branche Data&service utilisé des base de données pour avoir les informations des études. Les base de données sont identiques d'une étude à l'autre sur la structure</Text>
-                        <Text>Afin de réaliser les graphiques sur le projet il faut faire des requetes SQL sur la base de données de l'étude afin de récupérer les données à affichier</Text>
+                        <Text>La branche Data&Service utilise des bases de données pour obtenir les informations des études. Les bases de données présentent une structure identique d'une étude à l'autre.</Text>
+                        <Text>Pour réaliser les graphiques sur le projet, il est nécessaire d'effectuer des requêtes SQL sur la base de données de l'étude afin de récupérer les données à afficher.</Text>
                     </Box>
                     <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 5px' }}>
                         <Text as="h3" fontSize="md" fontWeight="bold">GitLab</Text>
-                        <Text>L'entreprise utilisé GitLab comme outil de gestion de code qui permet de centraliser le code de toute l'entreprise. Gitlab permet de mettre en place des procédures de vérification sur les projets avec le gitlab.cy et de faire passer certains processus en fonction de la branche sur laquelle on se situe</Text>
-                        <Text>Avant mon arrivée en entreprise j'utilisé Git pour mes projets perso mais je n'avais utilisé GitLab avant mon arrivée en entreprise. GitLab me permet de de faire des test unitaires sur mon projet à chacque ajout de nouveau code sur mes projets</Text>
+                        <Text>L'entreprise utilise GitLab comme outil de gestion de code, permettant de centraliser le code de toute l'entreprise. GitLab permet de mettre en place des procédures de vérification sur les projets avec le GitLab CI (Continuous Integration) et de faire passer certains processus en fonction de la branche sur laquelle on se situe.</Text>
+                        <Text>Avant mon arrivée en entreprise, j'utilisais Git pour mes projets personnels, mais je n'avais pas utilisé GitLab. GitLab me permet de réaliser des tests unitaires sur mes projets à chaque ajout de nouveau code.</Text>
                     </Box>            
                 </Flex>
             </Flex>
