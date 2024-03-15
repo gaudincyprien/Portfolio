@@ -31,7 +31,7 @@ export default function TennisAfterwork() {
             setTerrain(data.terrain + "/" + data.simple_double);
         }
         else {
-                alert('Nombre de joueurs incorrect. Veuillez saisir 2 ou 4 joueurs.');
+            alert('Nombre de joueurs incorrect. Veuillez saisir 2 ou 4 joueurs.');
         }
     };
 

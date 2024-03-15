@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 export default function About() {
     return (
-        <Box style={{ backgroundColor: '#d3d3d3', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Box style={{ backgroundColor: '#d3d3d3', display: 'flex', flexDirection: 'column' }}>
             <Navbar />
             <Flex flex={1} justifyContent='center' alignItems='center'>
-                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px' }}>
+                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', marginBottom: '20px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Présentation</Text>
                     <Text>Je m'appelle Cyprien Gaudin et je suis actuellement étudiant en 3ème année de BUT informatique.</Text>
                     <Text>J'effectue ma troisième année de BUT en alternance chez Telemedicine Technologies en tant que développeur Python.</Text>
@@ -17,7 +17,7 @@ export default function About() {
                 </Box>
             </Flex>
             <Flex flex={1} justifyContent='center' >
-                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
+                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px', marginBottom: '20px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Langages</Text>
                     <List spacing={1}>
                         <ListItem>- Python</ListItem>
@@ -31,7 +31,7 @@ export default function About() {
                         <ListItem>- C</ListItem>
                     </List>
                 </Box>
-                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
+                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px', marginBottom: '20px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Formation</Text>
                     <List spacing={3}>
                         <ListItem>
@@ -39,7 +39,7 @@ export default function About() {
                                 <Text as="h3" fontSize="md" fontWeight="bold" color="blue.500">BUT Informatique</Text>
                             </Link>
                             <List spacing={1}>
-                                <ListItem>- Rélaiser d'application</ListItem>
+                                <ListItem>- Réalisation d'application</ListItem>
                                 <ListItem>- Gestion de projet</ListItem>
                                 <ListItem>- Base de données</ListItem>
                             </List>
@@ -54,11 +54,11 @@ export default function About() {
                         </ListItem>
                     </List>
                 </Box>
-                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }} >
+                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px', marginBottom: '20px' }} >
                     <Text as="h2" fontSize="lg" fontWeight="bold">Personnalité</Text>
                     <List spacing={1}>
-                        <ListItem>- Autonomme</ListItem>
-                        <ListItem>- Persévérent</ListItem>
+                        <ListItem>- Autonomie</ListItem>
+                        <ListItem>- Persévérance</ListItem>
                         <ListItem>- Organisation</ListItem>
                         <ListItem>- Travail d'équipe</ListItem>
                         <ListItem>- Adaptation</ListItem>
@@ -68,8 +68,8 @@ export default function About() {
                         <ListItem>- Communication</ListItem>
                     </List>
                 </Box>
-                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
-                    <Text as="h2" fontSize="lg" fontWeight="bold">Expérience Professionels</Text>
+                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px', marginBottom: '20px' }}>
+                    <Text as="h2" fontSize="lg" fontWeight="bold">Expérience professionnelle</Text>
                     <List spacing={3}>
                         <ListItem>
                         <Link to="/me/alternance">
@@ -84,7 +84,23 @@ export default function About() {
                     </List>
                 </Box>
             </Flex>
+            <Flex flex={1} justifyContent='center'>
+                <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px', marginBottom: '20px' }}>
+                    <Text as="h2" fontSize="lg" fontWeight="bold">Projet Personnel</Text>
+                    <List spacing={3}>
+                        <ListItem>
+                            <Text as="h3" fontSize="md" fontWeight="bold">Développement d'un site web pour le SLTC (Stade Lavallois Tennis Club)</Text>
+                            <List spacing={1}>
+                                <ListItem>- Réalisation d'un cahier des charges</ListItem>
+                                <ListItem>- Réalisation de maquettes avec Figma</ListItem>
+                                <ListItem>- Développement du site web</ListItem>
+                            </List>
+                        </ListItem>
+                    </List>
+                </Box>
+            </Flex>
             <Footbar />
         </Box>
+
     );
 }

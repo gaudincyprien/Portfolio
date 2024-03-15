@@ -20,15 +20,15 @@ export default function BUT1ereannee() {
             <Flex justifyContent='center'>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', marginRight: '10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold" color='green'>Implémenter des conceptions simples</Text>
-                    <Text>Afin d'élaborer des concepts simples en informatique, nous avons commencer à faires des petits programmes basic qui permttent de calculer le périmètres d'un carré par exemple en pseudo-code pour commencer avant de l'implémenter en Java après. Cela m'a permis de prendre connaissance du Java et aussi de l'importance même pour les petits bouts de code qui sont à faire.</Text>
+                    <Text>Afin d'élaborer des concepts simples en informatique, nous avons commencé à faires des petits programmes basiques qui permettent de calculer le périmètre d'un carré par exemple en pseudo-code pour commencer avant de l'implémenter en Java après. Cela m'a permis de prendre connaissance du Java et aussi de l'importance même pour les petits bouts de code qui sont à faire.</Text>
                 </Box>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', marginRight: '10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold" color='green'>Élaborer des conceptions simples</Text>
-                    <Text>Nous avons utiliser des concepts simple avec les piles et files en Java. Nous avons commencer par utilsier les piles et files définis par les classe Java puis nous avons coder nous même notre classe pile et file afin d'élaborer un concept assez simple qui peut être utilsés dans d'autre projets.</Text>
+                    <Text>Nous avons utilisé des concepts simples avec les piles et files en Java. Nous avons commencé par utiliser les piles et files définies par les classes Java puis nous avons codé nous même notre classe pile et file afin d'élaborer un concept assez simple qui peut être utilsé dans d'autres projets.</Text>
                 </Box>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', marginRight: '10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold" color='green'>Faire des essais et évaluer leurs résultats en regard des spécifications</Text>
-                    <Text>Après avoir fait la solution techniques pour répondre aux spécification, il faut s'assurer que la solution proposés répond bien au besoin de l'exigence, pour cela on fait des tests avec plusieurs valeurs notament avec des valeurs pouvant faire planter le programme.</Text>
+                    <Text>Après avoir fait la solution technique pour répondre aux spécifications, il faut s'assurer que la solution proposée réponde bien au besoin de l'exigence, pour cela on fait des tests avec plusieurs valeurs notament avec des valeurs pouvant faire planter le programme.</Text>
                 </Box>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', marginRight: '10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold" color='green'>Développer des interfaces utilisateurs</Text>
@@ -36,8 +36,8 @@ export default function BUT1ereannee() {
                 </Box>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', marginRight: '10px' }}>
                     <Text as="h2" fontSize="lg" fontWeight="bold">Projets</Text>
-                    <Text>- Le premier projet en équipe de 4 était de faire une histoire avec un robot. Le robot devait raconter une histoire au cours de sa balade. Avec mon groupe on avait décider de faire le passage de permis. Nous avons donc coder en Java pour que le robot suive une ligne noir qui étais la route et passe différente étape du permis (stop, rond point, parking).</Text>
-                    <Text>- Le deuxième projet en équipe de 3 était de dévolpper une application de gestion des étudiants pour le département informatique, c'est à dire gérer les étudiants pour la secrétaire avec les groupes, gérer les absences pour le directeur d'études et pour les étudiant pouvoir voir le trombinoscope de sa promo. Ce projet a été réalisé en JavaFX.</Text>
+                    <Text>- Le premier projet en équipe de 4 était de faire une histoire avec un robot. Le robot devait raconter une histoire au cours de sa balade. Avec mon groupe on avait décidé de faire le passage de permis. Nous avons donc codé en Java pour que le robot suive une ligne noire qui était la route et passe différentes étapes du permis (stop, rond point, parking).</Text>
+                    <Text>- Le deuxième projet en équipe de 3 était de dévolpper une application de gestion des étudiants pour le département informatique, c'est à dire gérer les étudiants pour la secrétaire avec les groupes, gérer les absences pour le directeur d'études et pour les étudiants pouvoir voir le trombinoscope de sa promo. Ce projet a été réalisé en JavaFX.</Text>
                 </Box>
             </Flex>
             <Button style={{ marginTop: '40px', marginBottom: '10px' }}>Appréhender et construire des algorithmes</Button>

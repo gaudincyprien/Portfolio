@@ -18,7 +18,7 @@ export default function Alternance() {
             </Flex>
             <Flex padding={5}>
                 <Box style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', margin: '0 10px' }}>
-                    <Text as="h2" fontSize="lg" fontWeight="bold">Présentation Entreprise</Text>
+                    <Text as="h2" fontSize="lg" fontWeight="bold">Présentation</Text>
                     <Text>Telemedicine Technologies est une entreprise éditrice de solutions de e-santé grâce à son logiciel CleanWeb, qui est un outil permettant la gestion électronique des essais cliniques.</Text>
                     <Text>Telemedicine Technologies est impliqué dans plus de 64 pays, avec plus de 20 000 centres de recherche, 3 millions de patients et 50 000 utilisateurs à travers le monde.</Text>
                     <Text>Pour ma part, je suis rattaché à la branche Data, qui se trouve en Belgique. Mon objectif est de simplifier les démarches des Data Managers, de corriger les bugs et de mettre en place les études.</Text>          
