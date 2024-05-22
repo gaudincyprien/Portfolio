@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../../components/partial/NavBar';
 import Footbar from '../../components/partial/FootPage';
 import BoxTitle from '../../components/belote/BoxTitle';
+import axios, { AxiosResponse } from 'axios';
 
 export default function HomePage() {
     const [selectedOption, setSelectedOption] = useState('');
@@ -14,23 +15,30 @@ export default function HomePage() {
 
     const handleButtonClick = async () => {
         if (selectedOption === '3' || selectedOption === '4') {
-            //aller sur la page de configuration
-            handleFileUpload()
-            //window.location.href = `/belote/configuration`;
+            await numberOfPlayer(selectedOption)
+            window.location.href = `/belote/configuration`;
         }
         else {
-            alert('Nombre de joueurs incorrect. Veuillez saisir 2 ou 4 joueurs.');
+            alert('Nombre de joueurs incorrect. Veuillez saisir 3 ou 4 joueurs.');
         }
     }
 
-    const handleFileUpload = async () => {
-      const formData = new FormData();
-      formData.append('nbPlayers', '3');
-  
-      await fetch('http://localhost:8000/nbplayers', {
-        method: 'POST',
-        body: formData,
-      })}
+    const numberOfPlayer = async (players) => {
+      try {
+        console.log(players)
+        const data = {
+            nb_joueurs: players
+        };
+    
+        await axios.post(
+            "http://localhost:9174/belote/nbplayers",
+            data,
+            { headers: { 'Content-Type': 'application/json' } }
+        )
+    } catch (e) {
+        console.error(e);
+        throw e;
+    }}
 
     return (
         <Box style={{ backgroundColor: '#00ff00', height: '100vh', display: 'flex', flexDirection: 'column' }}>

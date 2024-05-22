@@ -1,0 +1,29 @@
+version: "3.8"
+
+name: 'sitewebgaudincyprien'
+
+services:
+  gaudin-cyprien-front:
+    build:
+      target: frontend
+    container_name: "gaudin-cyprien-front"
+    ports:
+      - "9173:9173"
+    environment:
+      VITE_API_SECRET_KEY: nBJKGBJKHCEFE5757GNHTJMFHgJVFRLGHTR457µ5REJGIERHY57µ57ER4H4GREJHULREHRE5775789
+      VITE_API_BACKEND_URL: http://localhost:9174
+    restart : always
+    depends_on:
+      - gaudin-cyprien-back
+  gaudin-cyprien-back:
+    build:
+      dockerfile: Dockerfile
+      target: backend
+    container_name: "gaudin-cyprien-back"
+    ports:
+      - "9174:9174"
+    environment:
+      API_SECRET_KEY: nBJKGBJKHCEFE5757GNHTJMFHgJVFRLGHTR457µ5REJGIERHY57µ57ER4H4GREJHULREHRE5775789
+      FRONTEND_URL: http://localhost:9173
+    restart : always
+

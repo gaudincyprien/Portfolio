@@ -12,6 +12,8 @@ import BUTCULTUREGENERALE from '../views/BUTCultureGenerale';
 import BeloteAcceuil from '../views/belote/Acceuil';
 import BeloteRegles from '../views/belote/Regles';
 import BeloteConfiguration from '../views/belote/Configuration';
+import BeloteGame from '../views/belote/Game';
+import AddPoint from '../components/belote/AddPoint';
 
 function Router() {
 
@@ -31,6 +33,8 @@ function Router() {
                 <Route path="/belote" element={<BeloteAcceuil />} />
                 <Route path="/belote/regles" element={<BeloteRegles />} />
                 <Route path="/belote/configuration" element={<BeloteConfiguration />} />
+                <Route path="/belote/game" element={<BeloteGame />} />
+                <Route path="/belote/addpoint" element={<AddPoint />} />
             </Routes>
         </BrowserRouter>
     );
