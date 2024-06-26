@@ -15,7 +15,6 @@ export default function Navbar() {
         <Flex bg='#dddddd' p={4} justifyContent='center'>
             <ButtonGroup>
                 <Button colorScheme={currentPage === '/' ? 'red' : 'green'} onClick={() => navigate('/')}>Home</Button>
-                <Button colorScheme={currentPage === '/tennis' ? 'red' : 'green'} onClick={() => navigate('/tennis')}>Tennis</Button>
                 <Button colorScheme={currentPage === '/me' ? 'red' : 'green'} onClick={() => navigate('/me')}>Portfolio</Button>
                 <Button colorScheme={currentPage === '/belote' ? 'red' : 'green'} onClick={() => navigate('/belote')}>Belote</Button>
             </ButtonGroup>
