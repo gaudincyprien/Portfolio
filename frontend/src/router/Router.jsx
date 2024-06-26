@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../views/HomePage';
 import Tennis from '../views/Tennis';
 import About from '../views/About';
-import TennisAfterwork from '../views/TennisAfterwork';
 import Alternance from '../views/Alternance';
 import IUT from '../views/IUT';
 import FIRSTYEAR from '../views/BUT1ereannee';
@@ -29,7 +28,6 @@ function Router() {
                 <Route path="/me/IUT/troisiemeannee" element={<THIRDYEAR />} />
                 <Route path="/me/IUT/culturegenerale" element={<BUTCULTUREGENERALE />} />
                 <Route path="/tennis" element={<Tennis />} />
-                <Route path="/tennis/afterwork" element={<TennisAfterwork />} />
                 <Route path="/belote" element={<BeloteAcceuil />} />
                 <Route path="/belote/regles" element={<BeloteRegles />} />
                 <Route path="/belote/configuration" element={<BeloteConfiguration />} />

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Flex, Box, Text, Button, Select, Input } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import Navbar from '../../components/partial/NavBar';
-import Footbar from '../../components/partial/FootPage';
-import BoxTitle from '../../components/belote/BoxTitle';
+import Navbar from '../partial/NavBar';
+import Footbar from '../partial/FootPage';
+import BoxTitle from './BoxTitle';
 import axios from 'axios';
 
 export default function AddPoints() {

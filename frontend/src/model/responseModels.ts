@@ -1,3 +1,0 @@
-interface ConfigAPIRaquettes {
-    config : Object;
-}
